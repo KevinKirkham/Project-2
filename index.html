@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Morse code translator -->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Morse Code Translator</title>
+        <script src="script/script.js"></script>
+
+        <!-- Link to Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+        <!-- Link to Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+        <!-- Link to CSS -->
+        <link rel="stylesheet" href="style/style.css">
+
+    </head>
+
+    <body style=background-color:black>
+    
+        <form action="index.html">
+
+            <div class="top">
+                <div class="center-title">
+                    <h2>Morse Code Translator</h2>
+                </div>
+            </div>
+    
+            <hr>
+    
+            <div class="translator">
+    
+                <div class="box">
+    
+                    <div class="input-box">
+    
+                        <div class="box-title">
+                            <label for="input-box">Input</label>
+                        </div>
+    
+                        <!-- use a textarea? have to specify rows and columns and id -->
+                        <div class="box-text-area">
+                            <textarea id="input-box" name="inputting" rows="7" cols="50" style="background-color:rgba(255, 255, 255, 0.774)"></textarea>
+                            <!-- <input type="text" id="input-box" placeholder="Input text..."> -->
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="buttons">
+    
+                    <div >
+                        <button type="button" id="c2mcTranslation" onclick=toMorse()>C2MC</button>
+                    </div>
+    
+                    <div class="toChar">
+                        <button type="button" id="mc2cTranslation" onclick=toEnglish()>MC2C</button>
+                    </div>
+    
+                    <div class="clearButton">
+                        <button type="button" id="clear" onclick=clearBox()>Clear</button>
+                    </div>
+    
+                </div>
+    
+                <div class="box">
+                    <div class="output-box">
+    
+                        <div class="box-title">
+                            <label for="translation-box" id="translation">Translation</label>
+                        </div>
+    
+                        <!-- Can use a textarea for this as well -->
+                        <div class="box-text-area">
+                            <textarea id="translation-box" name="outputting" rows="7" cols="50" style="background-color:rgba(255, 255, 255, 0.774)"></textarea>
+                            <!-- <input type="textbox" id="translation-box" placeholder="Translation"> -->
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </div>
+    
+        </form>
+    
+        <footer>
+    
+        </footer>
+    
+    </body>
+
+</html>

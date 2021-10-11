@@ -1,0 +1,66 @@
+.center-title {
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+hr {
+    color: orange;
+}
+
+.input-box {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+
+.output-box {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+
+.toChar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.clearButton {
+    padding-bottom: 20px;
+}
+
+.box-title {
+    font-family: 'Poppins', sans-serif;
+    color: orange;
+    height: 50px;
+    padding-top: -30px;
+}
+
+button {
+    background-color: orange;
+}
+
+.box-text-area {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    border-style: solid;
+    border-width: 3px;
+    border-color: orange;
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.747);
+}
+
+.buttons {
+    margin-left: 8px;
+    margin-right: 8px;
+    line-height: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.translator {
+    padding-top: 40px;
+    white-space: nowrap;
+    text-align: center;
+}
